@@ -1,0 +1,9 @@
+input("enter your name")
+name = " Bishal Mongar"
+print(name)
+X = 1.0
+Y = 2.0
+n=print(X+Y)
+m=print(X-Y)
+l=print(X*Y)
+k=print(X/Y)
