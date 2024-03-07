@@ -17,14 +17,14 @@ authors_set.add("Alice Johnson")
 books_dict["Machine Learning Basics"] = "Alice Johnson"
 
 #Search for a book
-search_title = ("Enter the title of the book to search: ")
+search_title = input("Enter the title of the book to search: ")
 if search_title in books_list:
     print(f"Book found! Author: {books_dict[search_title]}")
 else:
     print("Books not found!")
 
 #Display all books
-print("lsit of Books: ")
+print("list of Books: ")
 for book in books_list:
     print(book)
 
