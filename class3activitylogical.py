@@ -1,9 +1,17 @@
-x = int(input("Enter your age: "))
-y = input("Are you a student? (yes/no): ").lower()
+stack = []
+stack.append(1)
+stack.append(2)
+stack.append(3)
+stack.append(4)
 
-if  (x <= 12 or ((x>=13 and x<=18) and y == "yes" )):
-    print("You are eligiable for a discount on the movie ticket")
+print(stack[-1])
+print("Orginal stack")
+print(stack)
 
-else:
-    print("you are not eligiable for a discount on the movie ticket")
+print("\nElement pop out")
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
 
+print("\nFinal stack after poping out the element")
+print(stack)

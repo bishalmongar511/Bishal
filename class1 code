@@ -7,3 +7,4 @@ n=print(X+Y)
 m=print(X-Y)
 l=print(X*Y)
 k=print(X/Y)
+name = PEMA DORJI 

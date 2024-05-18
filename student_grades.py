@@ -12,4 +12,8 @@ while i <= num_students:
 
 avrage_grade = total_grade/ num_subjects
 print(f"Avrage grade for student {i}: {avrage_grade:.2f}")
-i += 1
+i += 1 
+
+
+
+
